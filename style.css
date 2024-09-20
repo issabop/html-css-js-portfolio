@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -173,6 +172,7 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+    
 }
 
 .section__text {
@@ -361,6 +361,8 @@ article .icon {
 .project-img {
     border-radius: 2rem;
     height: 340px;
+    width: 250px;
+    object-fit: cover;
 }
 
 .project-title {
