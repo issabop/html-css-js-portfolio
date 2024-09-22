@@ -34,12 +34,12 @@ const portfolioText = {
         experience: {
             iconAlt: "experience icon",
             title: "Experience",
-            text: "6+ years Personal Tutor"
+            text: "6+ years<br>Personal Tutor"
         },
         education: {
             iconAlt: "education icon",
             title: "Education",
-            text: "Bachelors of Computer Science\nO/A Levels"
+            text: "Bachelors of Computer Science<br>O/A Levels"
         },
         description: "Determined Young Entrepreneur, Experienced Educator. Eager to Learn, Grow, and Build. My Strong Character, Communication Skills, and Sharp Creative Mindset make me the king."
     },
@@ -67,6 +67,7 @@ const portfolioText = {
             ]
         }
     },
+    /*Not Used Yet*/
     projects: {
         sectionIntro: "Browse My Recent",
         sectionTitle: "Projects",
@@ -83,20 +84,21 @@ const portfolioText = {
                 name: "EdConnect",
                 imageAlt: "Project 2",
                 buttons: {
-                    playStore: { text: "Play Store", link: "/*Wrong Link*/https://github.com/issabop" },
-                    appStore: { text: "App Store", link: "/*Wrong Link*/https://github.com/issabop" }
+                    playStore: { text: "Play Store", link: "https://github.com/issabop" },
+                    appStore: { text: "App Store", link: "https://github.com/issabop" }
                 }
             },
             {
                 name: "Block Builder",
                 imageAlt: "Project 3",
                 buttons: {
-                    website: { text: "Website", link: "/*Wrong Link*/https://github.com/issabop" },
+                    website: { text: "Website", link: "https://github.com/issabop" },
                     github: { text: "Github", link: "https://github.com/issabop" }
                 }
             }
         ]
     },
+    /*Not Used Yet*/
     contact: {
         sectionIntro: "Get In Touch",
         sectionTitle: "Contact Me",
@@ -113,6 +115,7 @@ const portfolioText = {
             }
         }
     },
+    /*Not Used Yet*/
     footer: {
         copyright: "Copyright © 2024 Muhammad Issa Umer, All Rights Reserved",
         navLinks: {
